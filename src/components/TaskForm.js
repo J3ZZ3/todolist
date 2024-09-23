@@ -21,6 +21,7 @@ const TaskForm = ({ onSaveTask, taskToEdit }) => {
     };
     onSaveTask(newTask);
     setTaskName('');
+
     setPriority('Low');
   };
 

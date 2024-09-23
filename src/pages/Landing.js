@@ -5,13 +5,15 @@ function Landing() {
   return (
     <div>
       <center>
-        <h2> ToDo List</h2>
+        <h1> ToDo List</h1>
+        <access>
         <p>
           Already have an account? <Link to="/Login ">login here</Link>
         </p>
         <p>
           Don't have an account? <Link to="/Register ">Register here</Link>
         </p>
+        </access>
       </center>
     </div>
   );
